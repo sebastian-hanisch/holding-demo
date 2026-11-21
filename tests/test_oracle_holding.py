@@ -1,4 +1,4 @@
-"""Orakel-Tests (unabhängiger Rechenweg, DEMO-PLAYBOOK §12): Die Ereignissimulation `hld_sim.simulate` und die Fristschätzung `hld_knowledge.simulate_est` werden gegen eine
+"""Orakel-Tests (unabhängiger Rechenweg, DEMO-PLAYBOOK §12): Die ereignisdiskrete Simulation `hld_sim.simulate` und die Fristschätzung `hld_knowledge.simulate_est` werden gegen eine
 zweite, naive Umsetzung (Liste der Wartenden, Ereignis für Ereignis) verglichen; die Zeitregel gegen die Erneuerungsrechnung (Poisson); das Optimum gegen die exakte
 Teilmengen-Rechnung; die Zeitleiste (`trace_departures`) gegen die Simulation. Jeweils auf Handbeispielen und auf Zufallsinstanzen."""
 

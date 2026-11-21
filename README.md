@@ -109,7 +109,7 @@ Alle Zahlen stehen in `data/hld_results.json` und sind in `tests/test_claims.py`
 | `hld_presets.py` | Permalink (Begrenzen, Einrasten), Presets (Schnellstart, aktives Preset hervorgehoben), Zufalls-Seed-Button |
 | `hld_results.py` | Laden und Auswerten der Ergebnisdatei, Zählungen, Genauigkeitsleiter, Praxisregeln |
 | `hld_rng.py` | SplitMix64 mit plattformfesten Exponential- und Normalzahlen |
-| `hld_sim.py` | Ereignissimulation der Regeln, Kennzahlen, Offline-Optimum, Zeitleiste (aus der Vormessung übernommen) |
+| `hld_sim.py` | Ereignisdiskrete Simulation der Regeln, Kennzahlen, Offline-Optimum, Zeitleiste (aus der Vormessung übernommen) |
 | `hld_stories.py` | Abnahmekriterien der Presets |
 | `hld_visualization.py` | Plotly-Abbildungen (Achsen gesperrt) |
 | `requirements.txt`, `requirements-dev.txt` | Laufzeit-Bibliotheken (ungepinnt) und dazu pytest |

@@ -1,4 +1,4 @@
-"""Abfahrtsregeln für Sendungen mit Fristen: Ereignissimulation, Kennzahlen und Offline-Optimum (keine Löser).
+"""Abfahrtsregeln für Sendungen mit Fristen: Ereignisdiskrete Simulation, Kennzahlen und Offline-Optimum (keine Löser).
 
 Mechanisch übernommen aus `messreihe_holding/hl_sim.py` der Vormessung (Logik unverändert; tests/test_oracle_holding.py prüft sie gegen eine zweite, naive Umsetzung).
 
