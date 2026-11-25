@@ -1,7 +1,6 @@
 # Holding: wann zahlt sich Fristkenntnis aus? – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-holding-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-holding-demo.streamlit.app/)**
 
 Fall-Demo für die Website „Sebastian Hanisch – Operations Research und Machine Learning“ (`demos.html`, Gruppe „Transport & Tourenplanung“). Sendungen kommen laufend an, jede hat eine **Frist**, und ein Fahrzeug kostet pro Abfahrt dasselbe, egal wie voll es ist. **Wann soll es abfahren?** Wer wartet, füllt das Fahrzeug, riskiert aber die Frist. Die Demo rechnet live auf **einem Lauf** fünf Abfahrtsregeln, **S** (sofort), **Q** (Menge), **T** (Zeit), **QT** (Menge-oder-Zeit) und **F** (fristgetrieben), dazu das Offline-Optimum bei bekannten Ankünften und die **Stufen der Fristkenntnis** (von der Zeitregel ohne Kenntnis der Fristspanne bis zur exakten Frist). Die Aussagen stützen sich auf eine **vorgerechnete Messreihe** (72 Zellen, je 30 Läufe, Zufalls-Seeds 100000 bis 100029).
 
